@@ -1,0 +1,25 @@
+{
+  "name": "weatherappminiproject",
+  "version": "1.0.0",
+  "description": "Weather App",
+  "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Aishwarya S",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dot-env": "0.0.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13",
+    "request": "^2.88.2",
+    "unirest": "^0.6.0"
+  }
+}
